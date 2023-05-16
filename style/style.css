@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive;
+
+}
+
+body {
+    background: #2c6975;
+}
+
+.Random-Joke {
+    width: 80vmin;
+    padding: 50px 80px;
+    background-color: #94b0b7;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 413px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 30px #949494;
+}
+
+.Random-Joke span {
+    display: block;
+    text-align: center;
+    font-size: 80px;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 350;
+    text-align: center;
+    line-height: 38px;
+}
+
+#btn {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 15px;
+    background-color: black;
+    outline: 3px black solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    transition: 400ms;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+#btn:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.joke-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+    animation: blink 12s infinite;
+    -webkit-animation: blink 12s infinite;
+}
+
+@-webkit-keyframes blink {
+
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
+    }
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+        color: #fff6a9;
+    }
+}
+
+@keyframes blink {
+
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
+    }
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+        color: #fff6a9;
+    }
+}
+
+@media (max-width: 1244px) {
+    .Random-Joke {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 1224px) {
+    .Random-Joke {
+        margin-left: 270px;
+    }
+}
+
+@media (max-width: 1164px) {
+    .Random-Joke {
+        margin-left: 260px;
+    }
+}
+
+@media (max-width: 1148px) {
+    .Random-Joke {
+        margin-left: 240px;
+    }
+}
+
+@media (max-width: 1118px) {
+    .Random-Joke {
+        margin-left: 220px;
+    }
+}
+
+@media (max-width: 1092px) {
+    .Random-Joke {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .Random-Joke {
+        margin-left: 180px;
+    }
+}
+
+@media (max-width: 1016px) {
+    .Random-Joke {
+        margin-left: 160px;
+    }
+}
+
+@media (max-width: 962px) {
+    .Random-Joke {
+        margin-left: 140px;
+    }
+}
+
+@media (max-width: 935px) {
+    .Random-Joke {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 884px) {
+    .Random-Joke {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 850px) {
+    .Random-Joke {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 814px) {
+    .Random-Joke {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 775px) {
+    .Random-Joke {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 744px) {
+    .Random-Joke {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 699px) {
+    .Random-Joke {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 662px) {
+    .Random-Joke {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 637px) {
+    .Random-Joke {
+        margin-left: 30px;
+
+    }
+}
+
+@media (max-width: 616px) {
+    .Random-Joke {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 591px) {
+    .Random-Joke {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 557px) {
+    .Random-Joke {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 524px) {
+    .Random-Joke {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 494px) {
+    .Random-Joke {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Random-Joke {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 466px) {
+    .Random-Joke {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 440px) {
+    .Random-Joke {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 416px) {
+    .Random-Joke {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 394px) {
+    .Random-Joke {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 368px) {
+    .Random-Joke {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 344px) {
+    .Random-Joke {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 332px) {
+    .Random-Joke {
+        margin-left: 20px;
+    }
+}
